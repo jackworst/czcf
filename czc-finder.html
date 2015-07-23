@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CZ Challenge-Finder</title>
+    <script src="challenges.js"></script>
+
+    <link rel="stylesheet" href="app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+  	<div id="app">
+  	  <div id="controls">
+        <button id="edit">Edit</button>
+        <select id="starred">
+          <option value="all">(All)</option>
+          <option value="starred">Starred</option>
+  	  	</select>
+  	  	<select id="min-difficulty">
+          <option value="1" selected="y">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+  	  	</select>
+  	  	-
+  	  	<select id="max-difficulty">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10" selected="y">10</option>
+  	  	</select>
+  	  	<select id="category">
+          <option value="any">(Any category)</option>
+          <!--<option value="assert"><Recht durchsetzen / Asserting oneself</option>
+          <option value="relationships">Beziehung gestalten / Shaping relationships</option>-->
+          <option value="sympathy"><!--Um Sympathie werben-->Winning sympathy</option>
+          <option value="attention"><!--Bewusst Auffallen-->Drawing attention</option>
+          <option value="shame"><!--Angst vor Blamierung-->Fear of shame</option>
+          <option value="rejection"><!--Angst vor Zurückweisung-->Fear of rejection</option>
+          <option value="approach"><!--Leute ansprechen-->Approaching strangers</option>
+          <option value="conversation"><!--Gespräche führen-->Conversations</option>
+          <option value="eyes"><!--Blickkontakt-->Eye Contact</option>
+          <option value="voice"><!--Stimme-->Voice</option>
+          <option value="body"><!--Körperhaltung-->Body language</option>
+          <option value="sz-easy">Easy (SZ)</option>
+          <option value="sz-medium">Medium (SZ)</option>
+          <option value="sz-hard">Hard (SZ)</option>
+  	  	</select>
+  	  </div>
+  	  <div id="list">
+  	   <div id="loading">Loading...</div>
+  	  </div>
+    </div>	
+  </body>
+</html>

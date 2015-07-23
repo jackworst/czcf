@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	font-family: helvetica, sans-serif;
+}
+
+#controls {
+	padding: 0.3em;
+	background: #f1f1f1;
+}
+
+#controls #edit {
+	float: right;
+}
+
+#list ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#list .difficulty {
+	border-radius: 50px;
+	background: #B4CFEC;
+	padding: 0 0.5em;
+	margin: 0 0.3em;
+}
+
+#list .unstarBtn {
+	color: #FFD801;
+}
+
+#list .minusBtn {
+	margin: 0 0.3em 0 0;
+}
+
+#list ul {
+	border-top: 1px solid lightgray;
+}
+
+#list .challenge {
+	padding: 0.3em;
+	border-bottom: 1px solid lightgray;
+}
